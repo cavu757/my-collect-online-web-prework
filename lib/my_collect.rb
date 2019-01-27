@@ -1,14 +1,11 @@
 def my_collect(array)
   i = 0
-#  new_array = []
+  new_array = []
   while i < array.length
-    puts yield(array[i])
-    
-#    new_array << array[i]
-#    puts new_array
+    new_array << yield(array[i])
+    puts new_array
     i = i + 1
   end
-  array 
-#  new_array
+  new_array
 end
 
