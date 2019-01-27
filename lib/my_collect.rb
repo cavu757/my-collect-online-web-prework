@@ -8,6 +8,7 @@ def my_collect(array)
 #    puts new_array
     i = i + 1
   end
+  array 
 #  new_array
 end
 
